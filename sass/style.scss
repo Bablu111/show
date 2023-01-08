@@ -1,0 +1,270 @@
+@import "./common";
+
+#heading{
+
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(240,222,10,1) 0%, rgba(255,171,0,1) 66%);
+
+    .first{
+
+        img{
+            width: 45%;
+        }
+    }
+
+    .secand{
+
+        .hm{
+
+            margin-top: 5px;
+
+            a{
+                font-size: 18px;
+                font-weight: 400;
+                color: #fff;
+            }
+        }
+    }
+    .sarch{
+
+        margin-top: 5px;
+    }
+}
+
+#intro{
+            margin-top: 25px;
+    .text{
+                position: relative;
+            h6{
+                    font-size: 30px;
+                    font-weight:400;
+                    color: #000;
+            }
+
+            .hand{
+                    position: absolute;
+                    top: 1%;
+                    left: 39%;
+                    color: #FFCC22;
+            
+            }
+            h1{
+                    font-size: 40px;
+                    font-weight: 700px;
+                    color: #000;
+                    margin-top: 15px;
+            }
+            p{
+                font-size: 18px;
+                font-weight: 400px;
+                color: #000;
+                margin: 15px 0 15px 0;
+            }
+            .yellow{
+                        width: 100px;
+                        height: 40px;
+                        line-height: 40px;
+                        color: #000;
+                        background-color: #FFCC22;
+                        text-align: center;
+                        font-size: 18px;
+                        border-radius: 8px;
+                        margin-right: 20px;
+            }
+
+            .white{
+                width: 100px;
+                height: 40px;
+                line-height: 40px;
+                color: #000;
+                background-color:#fff; ;
+                text-align: center;
+                font-size: 16px;
+                border-radius: 8px;
+                border: 1px solid #000;
+
+            }
+
+            .social{
+                        
+                h4{
+                        font-size: 27px;
+                        font-weight: 400;
+                        color: #000;
+                        margin-top: 14px;
+                        position: absolute;
+                
+                    span{
+                            color: #FFCC22;
+                    }
+                }
+
+                ul{
+                        position: absolute;
+                        top: 287px;
+                        left: 112px;
+                }
+
+                a{
+                        width: 30px;
+                        height: 30px;
+                        background-color: #FFCC22;
+                        line-height: 32px;
+                        text-align: center;
+                        margin-left: 10px;
+                        border-radius: 50px;
+                    
+                        
+                        
+                    span{
+                            color: #fff;
+                    }
+                }
+            }
+        
+
+    }
+
+    .imagee{
+                text-align: center;
+        img{
+
+            width: 50%;
+            height: 86%;
+        }
+
+
+    }
+   
+}
+
+#about{
+            margin: 20px;
+    .about-gap{
+
+        background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(212,240,10,1) 0%, rgba(255,171,0,1) 100%);
+        width: 100%;
+        border-radius: 8px;
+
+        .img{
+
+
+            img{
+
+                max-width: 350px;
+                width: 100%;
+            }
+        }
+
+        .about-text{
+
+            h3{
+                    font-size: 30px;
+                    font-weight: 700;
+                    color: #000;
+                    margin: 20px;
+            }
+            p{
+                    font-size: 16px;
+                    font-weight: 400px;
+                    color: #000;
+                    margin: 20px;
+            }
+            a{
+                    width: 100px;
+                    height: 40px;
+                    line-height: 40px;
+                    color: #FFF;
+                    border: 1px solid #000;
+                    text-align: center;
+                    border-radius: 8px;
+                    margin: 20px;
+            }
+            a:hover{
+                border: 2px solid #fff;
+                color: #000;
+            }
+        }
+
+    }
+}
+
+
+#work{
+
+    margin: 90px 0 30px 0;
+
+    .card1{
+        width: 350px;
+        height: 367px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.10);
+        position: relative;
+        border-radius: 20px;
+        margin: 15px;
+        
+        
+        img{
+            position:absolute;
+            top: 9%;
+            left: 37%;
+            border: 2px solid #FFCC22;
+            border-radius: 27px;
+        }
+        img:hover{
+            border: 2px solid #06c1f9;
+            border-radius: 33px;
+            transform: rotate(45deg);
+        }
+
+        span{
+                font-size: 34px;
+                color: rgb(10, 174, 244);
+                position: absolute;
+                top:13%;
+                left: 43%;
+                
+                
+            
+        }
+        span:hover{
+            color:#FFCC22;
+            transform: rotate(-180deg);
+        }
+        h6{
+            position:absolute;
+            font-size: 25px;
+            font-weight: 700;
+            color: #000;
+            top: 36%;
+            left: 29%;
+
+        }
+        h6:hover{
+            color:#FFCC22;
+        }
+        p{
+            font-size: 17px;
+            font-weight: 400;
+            color: #000;
+            position: absolute;
+            top: 52%;
+            
+            text-align: center;
+
+        }
+    }
+}
+
+#branding{
+
+    margin: 90px 0 30px 0;
+
+    .gapp{
+
+        background: radial-gradient(circle, rgba(226,255,16,1) 81%, rgba(238,238,249,1) 100%);
+        
+
+    
+
+    }
+}

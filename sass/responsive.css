@@ -1,0 +1,12 @@
+@media(min-width: 320px) and (max-width: 776px){
+
+    #intro .text .hand {
+        position: absolute;
+        top: 1%;
+        left: 65%;
+        color: #FFCC22;
+    }
+    #intro .text .social {
+        display: none;
+    }
+}
